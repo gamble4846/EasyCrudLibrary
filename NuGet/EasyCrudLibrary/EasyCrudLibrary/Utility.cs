@@ -263,7 +263,7 @@ namespace EasyCrudLibrary
             List<string> OutputVARs = new List<string>();
             try
             {
-                string QueryString = "DECLARE @OutputVAR TABLE (OutputColumn NVARCHAR(MAX)); DELETE FROM " + tableName + "  OUTPUT DELETED." + OutputColumn + " INTO @OutputVAR  " + WhereCondition;
+                string QueryString = "DECLARE @OutputVAR TABLE (OutputColumn NVARCHAR(MAX)); DELETE FROM " + tableName + "  OUTPUT DELETED." + OutputColumn + " INTO @OutputVAR  " + WhereCondition + "  ; SELECT * FROM @OutputVAR  ";
                 cmd.CommandText = QueryString;
                 using (var reader = cmd.ExecuteReader())
                 {
