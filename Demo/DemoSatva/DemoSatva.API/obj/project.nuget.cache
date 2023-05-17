@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vo9LbyGyiT+a/0J2FxfhvktrYQ1Kvg8HV6KnPRmDxD8vvYuyPsR8WY4+kj2ic1LsWouVSCgF78l565fVwmAZfg==",
+  "dgSpecHash": "iI8RjLvom3d2uaW256Ok9Of+uMscOg5GJpdaIHOBi+vwqWPDU0km64vTRckZUXXXII5aFdATpca16TVHDTBE7Q==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.API\\DemoSatva.API.csproj",
+  "projectFilePath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.API\\DemoSatva.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chint\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
     "C:\\Users\\chint\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

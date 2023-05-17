@@ -10703,11 +10703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.API\\DemoSatva.API.csproj",
+      "projectUniqueName": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.API\\DemoSatva.API.csproj",
       "projectName": "DemoSatva.API",
-      "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.API\\DemoSatva.API.csproj",
+      "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.API\\DemoSatva.API.csproj",
       "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.API\\obj\\",
+      "outputPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10724,17 +10724,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj": {
-              "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj"
+            "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj": {
+              "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj"
             },
-            "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj": {
-              "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj"
+            "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj": {
+              "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj"
             },
-            "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj": {
-              "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj"
+            "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj": {
+              "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj"
             },
-            "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Utility\\DemoSatva.Utility.csproj": {
-              "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Utility\\DemoSatva.Utility.csproj"
+            "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Utility\\DemoSatva.Utility.csproj": {
+              "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Utility\\DemoSatva.Utility.csproj"
             }
           }
         }

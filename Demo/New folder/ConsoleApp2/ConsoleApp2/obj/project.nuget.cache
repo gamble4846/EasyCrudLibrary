@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3vWrH1kFw9d2aUg2let4x+W2MISAwojbFZfwlvqWXaDvmH4CfmdQxfvBl4aZVEtPHJGCFTM5SVh0YBLw3EEDhg==",
+  "dgSpecHash": "IWf0OVTcItlgOPZnAi7mex/RsbklIlnKkIRLVUiwyjsmXO7cHSucvzmL2XGnR8qEcFUqXAJi98LTC0LKIzkQug==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\New folder\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+  "projectFilePath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\New folder\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chint\\.nuget\\packages\\easycrudlibrary\\1.0.1\\easycrudlibrary.1.0.1.nupkg.sha512",
     "C:\\Users\\chint\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",

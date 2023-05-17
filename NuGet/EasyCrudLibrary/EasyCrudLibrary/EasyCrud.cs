@@ -97,7 +97,7 @@ namespace EasyCrudLibrary
             }
         }
 
-        public List<T> GetList<T>(int page = -1, int itemsPerPage = -1, List<OrderByModel> orderBy = null, string WhereCondition = null, WithInQuery withInQuery = WithInQuery.None) where T : class, new()
+        public List<T> GetList<T>(int page = -1, int itemsPerPage = -1, List<OrderByModel> orderBy = null, string WhereCondition = null, List<SqlParameter> parameters = null, WithInQuery withInQuery = WithInQuery.None) where T : class, new()
         {
             var TableName = Utility.GetTableName<T>();
             var FirstPropertyName = Utility.GetFirstPropertyName<T>();
@@ -118,6 +118,13 @@ namespace EasyCrudLibrary
                 }
 
                 SqlCommand cmd = new SqlCommand(CommandText, connection);
+                if (parameters != null)
+                {
+                    foreach(var parameter in parameters)
+                    {
+                        cmd.Parameters.Add(parameter);
+                    }
+                }
 
                 if (orderBy != null && orderBy.Count > 0)
                 {
@@ -165,7 +172,7 @@ namespace EasyCrudLibrary
             }
         }
 
-        public T GetFirstOrDefault<T>(string WhereCondition = null, WithInQuery withInQuery = WithInQuery.None) where T : class, new()
+        public T GetFirstOrDefault<T>(string WhereCondition = null, List<SqlParameter> parameters = null, WithInQuery withInQuery = WithInQuery.None) where T : class, new()
         {
             var TableName = Utility.GetTableName<T>();
             var withString = Utility.GetWithString(withInQuery);
@@ -174,6 +181,13 @@ namespace EasyCrudLibrary
                 string CommandText = @"SELECT  t.* FROM " + TableName + " t " + withString + " " + WhereCondition;
 
                 SqlCommand cmd = new SqlCommand(CommandText, connection);
+                if (parameters != null)
+                {
+                    foreach (var parameter in parameters)
+                    {
+                        cmd.Parameters.Add(parameter);
+                    }
+                }
 
                 try
                 {
@@ -272,7 +286,7 @@ namespace EasyCrudLibrary
             }
         }
 
-        public string Update<T>(T data, string WhereCondition = null, string toIgnoreColumns = null, bool AutoCommit = true) where T : class, new()
+        public string Update<T>(T data, string WhereCondition = null, List<SqlParameter> parameters = null, string toIgnoreColumns = null, bool AutoCommit = true) where T : class, new()
         {
             var TableName = Utility.GetTableName<T>();
             var toIgnoreColumnsList = new List<string>();
@@ -291,6 +305,14 @@ namespace EasyCrudLibrary
             }
 
             SqlCommand cmd = new SqlCommand("", connection);
+            if (parameters != null)
+            {
+                foreach (var parameter in parameters)
+                {
+                    cmd.Parameters.Add(parameter);
+                }
+            }
+
             try
             {
                 if (connection.State == ConnectionState.Closed)
@@ -324,7 +346,7 @@ namespace EasyCrudLibrary
             }
         }
 
-        public string Remove<T>(string WhereCondition, bool AutoCommit = true) where T : class, new()
+        public string Remove<T>(string WhereCondition, List<SqlParameter> parameters = null, bool AutoCommit = true) where T : class, new()
         {
             var TableName = Utility.GetTableName<T>();
 
@@ -341,6 +363,13 @@ namespace EasyCrudLibrary
             }
 
             SqlCommand cmd = new SqlCommand("", connection);
+            if (parameters != null)
+            {
+                foreach (var parameter in parameters)
+                {
+                    cmd.Parameters.Add(parameter);
+                }
+            }
             try
             {
                 if (connection.State == ConnectionState.Closed)
@@ -374,7 +403,7 @@ namespace EasyCrudLibrary
             }
         }
 
-        public int Count<T>(string WhereCondition = null, WithInQuery withInQuery = WithInQuery.None) where T : class, new()
+        public int Count<T>(string WhereCondition = null, List<SqlParameter> parameters = null, WithInQuery withInQuery = WithInQuery.None) where T : class, new()
         {
             var TableName = Utility.GetTableName<T>();
             var withString = Utility.GetWithString(withInQuery);
@@ -383,7 +412,13 @@ namespace EasyCrudLibrary
 
                 string CommandText = @"SELECT COUNT(*) AS TotalRecords FROM " + TableName + " t " + withString + " " + WhereCondition;
                 SqlCommand cmd = new SqlCommand(CommandText, connection);
-
+                if (parameters != null)
+                {
+                    foreach (var parameter in parameters)
+                    {
+                        cmd.Parameters.Add(parameter);
+                    }
+                }
                 try
                 {
                     if (connection.State == ConnectionState.Closed)
@@ -423,7 +458,7 @@ namespace EasyCrudLibrary
             }
         }
 
-        public dynamic Query(string Query, bool AutoCommit = true, ExecuteType executeType = ExecuteType.ExecuteReader)
+        public dynamic Query(string Query, List<SqlParameter> parameters = null, bool AutoCommit = true, ExecuteType executeType = ExecuteType.ExecuteReader)
         {
             SqlConnection connection;
 
@@ -441,6 +476,13 @@ namespace EasyCrudLibrary
             string CommandText = Query;
 
             SqlCommand cmd = new SqlCommand(CommandText, connection);
+            if (parameters != null)
+            {
+                foreach (var parameter in parameters)
+                {
+                    cmd.Parameters.Add(parameter);
+                }
+            }
 
             if (!AutoCommit)
             {

@@ -1681,11 +1681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj",
+      "projectUniqueName": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj",
       "projectName": "DemoSatva.Model",
-      "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj",
+      "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj",
       "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Model\\obj\\",
+      "outputPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1702,8 +1702,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\GSFramework\\EasyCrudDB.csproj": {
-              "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\GSFramework\\EasyCrudDB.csproj"
+            "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\GSFramework\\EasyCrudDB.csproj": {
+              "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\GSFramework\\EasyCrudDB.csproj"
             }
           }
         }

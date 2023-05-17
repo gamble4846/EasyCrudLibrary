@@ -1721,11 +1721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj",
+      "projectUniqueName": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj",
       "projectName": "DemoSatva.Manager",
-      "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj",
+      "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj",
       "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Manager\\obj\\",
+      "outputPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Manager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1742,11 +1742,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj": {
-              "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj"
+            "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj": {
+              "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj"
             },
-            "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj": {
-              "projectPath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj"
+            "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj": {
+              "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Model\\DemoSatva.Model.csproj"
             }
           }
         }

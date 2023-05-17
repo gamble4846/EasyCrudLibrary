@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iuAci6dRtzXPBd7yXXzu7mPycfOFv/QZfpMUromKxhzXOlL3cBXejW/0SRCMmvmOwSjS7iuSxX/L01GO2GwK0g==",
+  "dgSpecHash": "1BXv+qhygUVLXgNgCepaXiH/mZi6gtJreU3mO5dQg3PTlJe8Gr7frCfnRAKaBVy+BZVeULpbkzYvC9qTtu8osA==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj",
+  "projectFilePath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.Manager\\DemoSatva.Manager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chint\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
     "C:\\Users\\chint\\.nuget\\packages\\log4net\\2.0.13\\log4net.2.0.13.nupkg.sha512",

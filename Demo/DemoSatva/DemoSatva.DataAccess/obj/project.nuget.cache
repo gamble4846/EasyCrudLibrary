@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KWA2DGsYTgiwKXSSBMjJoxgK/IDDrziBPXlXjOh+0OEMkZVAkTj2f9XMaqgXO95NCu5wTg0atVFZXjWOXOSU/Q==",
+  "dgSpecHash": "O/nePUVB7SzrhhBWMTShZzq/g15b5+tc8kdVqxd2tAtafDpg35ecbjT8XPQJPrr0qHXfeGThHnY2/oTBvDCFHw==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Rohan's Projects\\GSFramework\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj",
+  "projectFilePath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\Demo\\DemoSatva\\DemoSatva.DataAccess\\DemoSatva.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chint\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
     "C:\\Users\\chint\\.nuget\\packages\\log4net\\2.0.13\\log4net.2.0.13.nupkg.sha512",
