@@ -258,18 +258,21 @@ namespace EasyCrudLibrary
             }
         }
 
-        public static string DeleteRowFromTable(string tableName, SqlCommand cmd, string WhereCondition)
+        public static List<string> DeleteRowFromTable(string tableName, SqlCommand cmd, string WhereCondition, string OutputColumn)
         {
+            List<string> OutputVARs = new List<string>();
             try
             {
-                string QueryString = "DELETE FROM " + tableName + " " + WhereCondition;
+                string QueryString = "DECLARE @OutputVAR TABLE (OutputColumn NVARCHAR(MAX)); DELETE FROM " + tableName + "  OUTPUT DELETED." + OutputColumn + " INTO @OutputVAR  " + WhereCondition;
                 cmd.CommandText = QueryString;
-                var recs = cmd.ExecuteNonQuery();
-                if (recs > 0)
+                using (var reader = cmd.ExecuteReader())
                 {
-                    return true.ToString();
+                    while (reader.Read())
+                    {
+                        OutputVARs.Add(reader.GetString("OutputColumn"));
+                    }
                 }
-                return null;
+                return OutputVARs;
             }
             catch (Exception ex)
             {

@@ -346,9 +346,14 @@ namespace EasyCrudLibrary
             }
         }
 
-        public string Remove<T>(string WhereCondition, List<SqlParameter> parameters = null, bool AutoCommit = true) where T : class, new()
+        public List<string> Remove<T>(string WhereCondition, string OutputColumn = null, List<SqlParameter> parameters = null, bool AutoCommit = true) where T : class, new()
         {
             var TableName = Utility.GetTableName<T>();
+            var FirstPropertyName = Utility.GetFirstPropertyName<T>();
+            if (String.IsNullOrEmpty(OutputColumn))
+            {
+                OutputColumn = FirstPropertyName;
+            }
 
             SqlConnection connection;
 
@@ -381,7 +386,7 @@ namespace EasyCrudLibrary
                 {
                     cmd.Transaction = TransactionToSave;
                 }
-                return Utility.DeleteRowFromTable(TableName, cmd, WhereCondition);
+                return Utility.DeleteRowFromTable(TableName, cmd, WhereCondition, OutputColumn);
             }
             catch (Exception)
             {
