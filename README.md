@@ -1,1 +1,1 @@
-# EasyCrudLibrary
+# GSFramework
