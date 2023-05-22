@@ -15,7 +15,7 @@ try
         EventPriority = 1
     };
 
-    var g = GSFramework.Remove<EventsModel>(" WHERE Id IN (1545,1546) ", "Id", null, true);
+    var g = GSFramework.Remove<EventsModel>(" WHERE Id IN (1541,1543) ", "Id", null, true);
 
     //var t = GSFramework.Query("Select * From Events");
     //var p = UtilityCustom.ConvertDynamicToType<List<EventsModel>>(t);

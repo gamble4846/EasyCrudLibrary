@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v6.0": {
       "ConsoleApp2/1.0.0": {
         "dependencies": {
-          "EasyCrudLibrary": "1.0.5"
+          "EasyCrudLibrary": "1.0.6"
         },
         "runtime": {
           "ConsoleApp2.dll": {}
         }
       },
-      "EasyCrudLibrary/1.0.5": {
+      "EasyCrudLibrary/1.0.6": {
         "dependencies": {
           "FastMember": "1.5.0",
           "Newtonsoft.Json": "13.0.3",
@@ -22,8 +22,8 @@
         },
         "runtime": {
           "lib/net6.0/EasyCrudLibrary.dll": {
-            "assemblyVersion": "1.0.5.0",
-            "fileVersion": "1.0.5.0"
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
           }
         }
       },
@@ -126,12 +126,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EasyCrudLibrary/1.0.5": {
+    "EasyCrudLibrary/1.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EZA3HGTFNVytjzLgIr+KUFmgAJGkIdXtfafi8kjUMh29//xHP5Ws73HQXZgldAgVk1D69WllNxt+8qkl/Upe+A==",
-      "path": "easycrudlibrary/1.0.5",
-      "hashPath": "easycrudlibrary.1.0.5.nupkg.sha512"
+      "sha512": "sha512-1jl2j9LSDmSU9sbjFv6EaFoKLNQJ4yyWXqFJG/d7GhwtdwbYMr7VlLGyX+f+hLNWaYX0wzTbpLqG7TfyzMeyng==",
+      "path": "easycrudlibrary/1.0.6",
+      "hashPath": "easycrudlibrary.1.0.6.nupkg.sha512"
     },
     "FastMember/1.5.0": {
       "type": "package",

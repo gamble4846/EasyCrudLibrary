@@ -161,7 +161,7 @@ namespace EasyCrudLibrary
         public static string InsertRowToTable<T>(T data, string tableName, string OutputColumn, SqlCommand cmd, List<string> toIgnoreColumns = null) where T : new()
         {
             string OutputVAR = null;
-            cmd.Parameters.Clear();
+            //cmd.Parameters.Clear();
             Type type = typeof(T);
             var accessor = TypeAccessor.Create(type);
             var members = accessor.GetMembers();
@@ -205,7 +205,7 @@ namespace EasyCrudLibrary
         {
             try
             {
-                cmd.Parameters.Clear();
+                //cmd.Parameters.Clear();
                 Type type = typeof(T);
                 var accessor = TypeAccessor.Create(type);
                 var members = accessor.GetMembers();
