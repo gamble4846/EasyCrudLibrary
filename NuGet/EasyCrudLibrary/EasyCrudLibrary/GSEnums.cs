@@ -20,5 +20,13 @@ namespace EasyCrudLibrary
             ExecuteReader,
             ExecuteNonQuery
         }
+
+        public enum ConditionENUM
+        {
+            Like = 0,
+            Equal = 1,
+            GreaterThan = 2,
+            LessThan = 3,
+        }
     }
 }

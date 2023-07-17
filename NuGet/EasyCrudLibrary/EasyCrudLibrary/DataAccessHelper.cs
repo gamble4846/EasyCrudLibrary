@@ -75,5 +75,36 @@ namespace EasyCrudLibrary
             }
             return string.Empty;
         }
+
+        public static string ConvertAdvanceFilterToConditionString(List<AdvanceFilterByModel> filtersList)
+        {
+            if(filtersList != null && filtersList.Count > 0)
+            {
+                var conditionString = "";
+                foreach(var filter in filtersList)
+                {
+                    conditionString += " " + filter.Name;
+
+                    switch (filter.Condition)
+                    {
+                        case GSEnums.ConditionENUM.Like:
+                            conditionString += " LIKE " + "'%" + filter.Value + "%' AND ";
+                            break;
+                        case GSEnums.ConditionENUM.Equal:
+                            conditionString += " = " + filter.Value + " AND ";
+                            break;
+                        case GSEnums.ConditionENUM.GreaterThan:
+                            conditionString += " > " + filter.Value + " AND ";
+                            break;
+                        case GSEnums.ConditionENUM.LessThan:
+                            conditionString += " < " + filter.Value + " AND ";
+                            break;
+                    }
+                }
+                conditionString = conditionString.Substring(0, conditionString.Length - 4);
+                return "  " + conditionString + "  ";
+            }
+            return string.Empty;
+        }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj": {}
+    "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj": {
-      "version": "1.0.7",
+    "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj": {
+      "version": "1.0.8",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj",
+        "projectUniqueName": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj",
         "projectName": "EasyCrudLibrary",
-        "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj",
+        "projectPath": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj",
         "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\obj\\",
+        "outputPath": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj": {
+    "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj",
+        "projectPath": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\obj\\",
+        "outputPath": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj": {
-                "projectPath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj"
+              "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj": {
+                "projectPath": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj"
               }
             }
           }

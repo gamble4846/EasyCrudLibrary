@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yKAqLGXCkEcE8FvSWpa8alRxVnnrSFzvw6PME2MggWpjRKjNbuBKtkVoXOff88WOV9nOz2v0h/dk2mZqJwIkNw==",
+  "dgSpecHash": "dJ5GEOkovyx3rkiKFvxtgug1UnjCaTQ0ubA6fFvDSwVY8Ze9O2NvEvldlvPZbQjonWZ4hf3guYz39j8nE3TubA==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj",
+  "projectFilePath": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chint\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
     "C:\\Users\\chint\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
