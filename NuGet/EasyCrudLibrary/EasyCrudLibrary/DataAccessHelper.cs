@@ -91,13 +91,13 @@ namespace EasyCrudLibrary
                             conditionString += " LIKE " + "'%" + filter.Value + "%' AND ";
                             break;
                         case GSEnums.ConditionENUM.Equal:
-                            conditionString += " = " + filter.Value + " AND ";
+                            conditionString += " = '" + filter.Value + "' AND ";
                             break;
                         case GSEnums.ConditionENUM.GreaterThan:
-                            conditionString += " > " + filter.Value + " AND ";
+                            conditionString += " > '" + filter.Value + "' AND ";
                             break;
                         case GSEnums.ConditionENUM.LessThan:
-                            conditionString += " < " + filter.Value + " AND ";
+                            conditionString += " < '" + filter.Value + "' AND ";
                             break;
                     }
                 }
