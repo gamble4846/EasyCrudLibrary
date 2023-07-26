@@ -541,7 +541,7 @@
     "C:\\Users\\chint\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.9",
+    "version": "1.0.10",
     "restore": {
       "projectUniqueName": "D:\\Git Projects\\Rohan's Projects\\EasyCrudLibrary\\NuGet\\EasyCrudLibrary\\EasyCrudLibrary\\EasyCrudLibrary.csproj",
       "projectName": "EasyCrudLibrary",

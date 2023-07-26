@@ -463,7 +463,7 @@ namespace EasyCrudLibrary
             }
         }
 
-        public dynamic Query(string Query, List<SqlParameter> parameters = null, bool AutoCommit = true, ExecuteType executeType = ExecuteType.ExecuteReader)
+        public dynamic Query(string Query, List<SqlParameter> parameters = null, bool AutoCommit = true, ExecuteType executeType = ExecuteType.ExecuteReader, System.Data.CommandType CommandType = System.Data.CommandType.Text)
         {
             SqlConnection connection;
 
@@ -481,6 +481,7 @@ namespace EasyCrudLibrary
             string CommandText = Query;
 
             SqlCommand cmd = new SqlCommand(CommandText, connection);
+            cmd.CommandType = CommandType;
             if (parameters != null)
             {
                 foreach (var parameter in parameters)

@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "TestProject/1.0.0": {
         "dependencies": {
-          "EasyCrudLibrary": "1.0.8"
+          "EasyCrudLibrary": "1.0.10"
         },
         "runtime": {
           "TestProject.dll": {}
@@ -105,7 +105,7 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "EasyCrudLibrary/1.0.8": {
+      "EasyCrudLibrary/1.0.10": {
         "dependencies": {
           "FastMember": "1.5.0",
           "Newtonsoft.Json": "13.0.3",
@@ -200,7 +200,7 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
-    "EasyCrudLibrary/1.0.8": {
+    "EasyCrudLibrary/1.0.10": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
