@@ -463,7 +463,7 @@ namespace EasyCrudLibrary
             }
         }
 
-        public dynamic Query(string Query, List<SqlParameter> parameters = null, bool AutoCommit = true, ExecuteType executeType = ExecuteType.ExecuteReader, System.Data.CommandType CommandType = System.Data.CommandType.Text)
+        public dynamic Query(string Query, List<SqlParameter> parameters = null, bool AutoCommit = true, ExecuteType executeType = ExecuteType.ExecuteReader, System.Data.CommandType CommandType = System.Data.CommandType.Text, bool ReturnWithCommand = false)
         {
             SqlConnection connection;
 
@@ -513,7 +513,18 @@ namespace EasyCrudLibrary
                                 ret.Add(t);
                             }
                         }
-                        return ret;
+
+                        if (ReturnWithCommand)
+                        {
+                            dynamic ToReturn = new System.Dynamic.ExpandoObject();
+                            ToReturn.Command = cmd;
+                            ToReturn.Result = ret;
+                            return ToReturn;
+                        }
+                        else
+                        {
+                            return ret;
+                        }
                     case ExecuteType.ExecuteNonQuery:
                         var recs = cmd.ExecuteNonQuery();
                         if (recs > 0)
@@ -525,7 +536,17 @@ namespace EasyCrudLibrary
                                     connection.Close();
                                 }
                             }
-                            return recs;
+                            if (ReturnWithCommand)
+                            {
+                                dynamic ToReturn = new System.Dynamic.ExpandoObject();
+                                ToReturn.Command = cmd;
+                                ToReturn.Result = recs;
+                                return ToReturn;
+                            }
+                            else
+                            {
+                                return ret;
+                            }
                         }
                         return null;
                     default:

@@ -169,7 +169,7 @@
           }
         }
       },
-      "EasyCrudLibrary/1.0.10": {
+      "EasyCrudLibrary/1.0.11": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -544,7 +544,7 @@
         "version.txt"
       ]
     },
-    "EasyCrudLibrary/1.0.10": {
+    "EasyCrudLibrary/1.0.11": {
       "type": "project",
       "path": "../EasyCrudLibrary/EasyCrudLibrary.csproj",
       "msbuildProject": "../EasyCrudLibrary/EasyCrudLibrary.csproj"
@@ -552,7 +552,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "EasyCrudLibrary >= 1.0.10"
+      "EasyCrudLibrary >= 1.0.11"
     ]
   },
   "packageFolders": {
