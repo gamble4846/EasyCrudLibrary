@@ -172,6 +172,8 @@ namespace EasyCrudLibrary
                 toIgnoreColumns = new List<string>();
             }
 
+            toIgnoreColumns = TrimListString(toIgnoreColumns);
+
 
             var ToUseMemeber = members.Where(x => !toIgnoreColumns.Contains(x.Name)).ToList();
             List<string> ColumnNames = ToUseMemeber.Select(x => x.Name).ToList();
@@ -216,6 +218,7 @@ namespace EasyCrudLibrary
                     toIgnoreColumns = new List<string>();
                 }
 
+                toIgnoreColumns = TrimListString(toIgnoreColumns);
 
                 var ToUseMemeber = members.Where(x => !toIgnoreColumns.Contains(x.Name)).ToList();
                 List<string> ColumnNames = ToUseMemeber.Select(x => x.Name).ToList();
@@ -326,6 +329,16 @@ namespace EasyCrudLibrary
             string jsonString = JsonConvert.SerializeObject(data);
             T result = JsonConvert.DeserializeObject<T>(jsonString);
             return result;
+        }
+
+        public static List<string> TrimListString(List<string> oldList)
+        {
+            for(int i = 0; i< oldList.Count; i++) 
+            {
+                oldList[i] = oldList[i].Trim();
+            }
+
+            return oldList;
         }
     }
 }

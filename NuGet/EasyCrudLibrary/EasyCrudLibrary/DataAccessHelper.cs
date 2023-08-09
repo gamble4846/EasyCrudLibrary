@@ -99,6 +99,9 @@ namespace EasyCrudLibrary
                         case GSEnums.ConditionENUM.LessThan:
                             conditionString += " < '" + filter.Value + "' AND ";
                             break;
+                        case GSEnums.ConditionENUM.In:
+                            conditionString += " IN (" + filter.Value + ") AND ";
+                            break;
                     }
                 }
                 conditionString = conditionString.Substring(0, conditionString.Length - 4);
