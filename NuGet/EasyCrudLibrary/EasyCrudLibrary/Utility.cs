@@ -33,9 +33,9 @@ namespace EasyCrudLibrary
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                var x = ex;
+                throw;
             }
 
 
@@ -257,7 +257,7 @@ namespace EasyCrudLibrary
             }
             catch (Exception ex)
             {
-                return null;
+                throw;
             }
         }
 
@@ -279,7 +279,7 @@ namespace EasyCrudLibrary
             }
             catch (Exception ex)
             {
-                return null;
+                throw;
             }
         }
 
