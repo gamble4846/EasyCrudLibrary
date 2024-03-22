@@ -24,11 +24,18 @@ namespace EasyCrudLibrary
                 {
                     if (!rd.IsDBNull(i))
                     {
-                        string fieldName = rd.GetName(i);
-
-                        if (members.Any(m => string.Equals(m.Name, fieldName, StringComparison.OrdinalIgnoreCase)))
+                        try
                         {
-                            accessor[t, fieldName] = rd.GetValue(i);
+                            string fieldName = rd.GetName(i);
+
+                            if (members.Any(m => string.Equals(m.Name, fieldName, StringComparison.OrdinalIgnoreCase)))
+                            {
+                                accessor[t, fieldName] = rd.GetValue(i);
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            
                         }
                     }
                 }
